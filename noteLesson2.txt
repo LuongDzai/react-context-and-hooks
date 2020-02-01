@@ -1,0 +1,7 @@
+Context trong ReactJs
+- Vấn đề: để truyền dữ liệu qua nhau trong các component thì dùng props, nhưng sẽ xảy ra việc có 1 số component ko sử dụng dữ liệu đấy mà vẫn phải truyền qua để còn truyền tiếp props
+=> Context sinh ra
+- Hoạt động của context: sử dụng ThemeContext để lưu dữ liệu và phân quyền truy cập vào dữ liệu đó cho component nào muốn truy cập
+=> Dùng ContextProvider bao quát hết App là oke
+
+=> Phù hợp trong các trường hợp: biến ở App và sử dụng nhiều, cần global tới nhiều child component của App
