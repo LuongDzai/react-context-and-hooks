@@ -1,0 +1,5 @@
+Reducer
+~~~~~~~~~~~~~~~
+- Reducer Function: tương tác với state/data
+- Dùng:
+Gọi 1 hàm dispatch() và truyền vào trong hàm tham số là 1 cái action để thực hiện thay đổi state/data
